@@ -40,7 +40,7 @@ li a{
   display:block;
   color: #FFF;
   text-align: center;
-  padding: 50px 30px;
+  padding: 30px 30px;
   text-decoration: none;
 }
 li a:hover: not(.active){
@@ -49,9 +49,14 @@ li a:hover: not(.active){
 .active{
   background-color: #111;
 }
+  .left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
 </style>
 
-<body bgcolor="7FB3D5"> 
+<body> 
 <ul>
   
 <li> <a href="about.html"> ABOUT ME</a></li>
@@ -60,7 +65,7 @@ li a:hover: not(.active){
     <li> <a href="accomplishment.html">REPORT</a></li>
     </ul>
 
-<h1>Good Day!!,Know Me First??</h1>
-
+<h1>Know Me First??</h1>
+<p>Left arrow: <i class="arrow left"></i></p>
 </body>
 </html>
